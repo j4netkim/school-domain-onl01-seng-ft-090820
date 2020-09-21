@@ -18,7 +18,8 @@ class School
       if a == lvl
         return b
       end
-    end 
+    end
+  end 
 
   def sort
     ahash = {}
