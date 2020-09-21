@@ -19,13 +19,6 @@ class School
         return b
       end
     end
-  end 
-
-  def sort
-    ahash = {}
-    roster.each do |a, b|
-      ahash[a] = b.sort
-    end
-    ahash
   end
-end
+
+  
