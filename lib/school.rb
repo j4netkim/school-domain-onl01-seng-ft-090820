@@ -12,4 +12,12 @@ class School
     roster[grade] = []
     roster[grade] << name
   end
-end
+
+  def grade(lvl)
+    ahash = {}
+    roster.each do |a, b|
+      ahash[a] = b.sort
+    end
+    ahash
+  end
+end 
