@@ -13,6 +13,12 @@ class School
     roster[grade] << name
   end
 
+  def grade(lvl)
+    roster.detect do |a, b|
+      if a == lvl
+        return b
+      end
+    end 
 
   def sort
     ahash = {}
