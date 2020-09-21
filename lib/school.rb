@@ -13,8 +13,6 @@ class School
     roster[grade] << name
   end
 
-  def grade(lvl)
-
 
   def sort
     ahash = {}
